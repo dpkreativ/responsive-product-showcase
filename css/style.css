@@ -8,14 +8,14 @@ body {
 
 /* Header Styles */
 header {
-  padding: 1rem;
+  padding: 2rem;
   background-color: white;
   width: 100%;
 }
 
 /* Main Styles */
 main {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .products {
@@ -23,12 +23,35 @@ main {
   gap: 5rem;
 }
 
+footer {
+  padding: 2rem;
+  background-color: #ebebeb;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* ============================================ */
+
 /* Responsive Styles for Tablet Screens */
 @media screen and (min-width: 768px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  footer section {
+    display: flex;
+    gap: 1rem;
+  }
 }
+
+/* ============================================ */
 
 /* Responsive Styles for Desktop Screens */
 @media screen and (min-width: 1024px) {
