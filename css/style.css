@@ -23,6 +23,50 @@ main {
   gap: 5rem;
 }
 
+.product {
+  border-radius: 1rem;
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+
+.product-image-box {
+  height: 14rem;
+}
+
+.product-image-box img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.product-content-box {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.product-price {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price p {
+  font-weight: 700;
+}
+
+.product-price button {
+  font-weight: 700;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 2rem;
+  font-size: 0.8rem;
+}
+
+/* Footer Styles */
 footer {
   padding: 2rem;
   background-color: #ebebeb;
