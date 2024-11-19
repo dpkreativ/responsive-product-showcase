@@ -1,2 +1,14 @@
 /* CSS Reset */
 @import url(./reset.css);
+
+/* Global Styles */
+body {
+  font-family: sans-serif;
+}
+
+/* Header Styles */
+header {
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+}
